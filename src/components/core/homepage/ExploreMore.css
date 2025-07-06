@@ -1,0 +1,222 @@
+.Expolre-section-first-div{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+
+.Expolre-section-heading{
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+
+.Explore-section-para{
+    font-size: 20px;
+    color: #9E9E9E;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.explore-selecton-buttons{
+    background-color: #161D29;
+    display: flex;
+    flex-direction: row;
+    height: 3.2rem;
+    justify-content: center;
+    align-items: center;
+    border-radius: 24px;
+    gap: 32px;
+    width: 72%;
+    margin:32px  auto;
+    box-shadow: 0px 0.25px 0px 0px white;
+}
+
+.explore-selection-tab{
+    padding: 10px 21px;
+    border-radius: 24px;
+    color: #9E9E9E;
+    cursor: pointer;
+}
+
+.explore-selection-tab:hover{
+    background-color: #000814;
+}
+
+.explore-selection-tab.explore-active{
+    background-color: #000814;
+    color: #585D69;
+}
+
+.explore-selection-tab.explore-inactive{
+    color: white;
+}
+
+.for-spacing-only{
+    height: 200px;
+}
+
+.Explore-section-tab-boxes{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 4.5rem; 
+    width: 80%;
+    color: black;
+    margin-bottom: 1.75rem; 
+    bottom: -8%;
+}
+
+.explore-tab-entire-div{
+    background-color: #161D29;
+    width: 22.5rem;
+    height: 320px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: all 0.3s ease;
+    cursor: pointer;
+
+}
+
+.explore-tab-heading{
+    color: white;
+    width: 80%;
+    text-align: left;
+    margin: 20px auto;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.explore-tab-description{
+    color: #585D69;
+    width: 80%;
+    text-align: left;
+    margin: 0 auto ;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.explore-tab-icons{
+    display: flex;
+    flex-direction: row;
+    margin:64px auto 20px auto  ;
+    width: 100%;
+    border-top: 1px dashed #585D69;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.explore-tab-left{
+    color: white;
+    padding-top: 15px ;
+    margin-left: 15px;
+    gap: 15px;
+    display: flex;
+    flex-direction: row;
+}
+
+.explore-tab-right{
+    display: flex;
+    flex-direction: row;
+    padding-top: 15px;
+    margin-right: 15px;
+    gap: 15px;
+    color: white;
+}
+
+.explore-tab-entire-div.explore-tab-active{
+    background-color: white;
+    .explore-tab-heading{
+        color: black;
+    }
+    .explore-tab-left,.explore-tab-right{
+        color: #0F7A9D;
+    }
+    box-shadow: 10px 10px 0px 2px yellow;
+}
+
+@media (max-width:1280px){
+    .explore-selecton-buttons{
+        width: 80%;
+    }
+}
+
+@media(max-width:1026px){
+    .explore-selecton-buttons{
+        width: 98%;
+    }
+    .explore-tab-icons{
+        margin: 21px auto 18px auto;
+    }
+    .Explore-section-tab-boxes{
+        width: 88%;
+    }
+    .Expolre-section-first-div{
+        width: 88%;
+    }
+}
+
+@media (max-width:1023px){
+    .explore-selecton-buttons{
+        width: 100%;
+        gap: 16px;
+        font-size: 16px;
+        
+    }
+    .explore-selection-tab {
+        padding: 10px 13px;
+    }
+    .Expolre-section-first-div {
+        width: 90%;
+    }
+    .Expolre-section-heading{
+        font-size: 36px;
+    }
+    .Explore-section-para{
+        font-size: 16px;
+    }
+    .Explore-section-tab-boxes {
+        flex-direction: column;
+        position: relative;
+    }
+    .Explore-section-tab-boxes{
+        width: 100%;
+        align-items: center;
+    }
+    .for-spacing-only{
+        height: 100px;
+        
+    }
+
+}
+
+@media (max-width:570px){
+    .explore-selecton-buttons{
+        width: 100%;
+        gap: 0px;
+        font-size: 8px; 
+    }
+    .explore-selection-tab {
+        padding: 6px 11px;
+    }
+    .explore-tab-entire-div{
+        width: 20.5rem;
+        
+    }
+    .for-spacing-only{
+        height: 100px;
+        
+    }
+    .Expolre-section-first-div{
+        align-items: center;
+        width: 95%;
+    }
+    .Explore-section-tab-boxes{
+        width: 100%;
+        align-items: center;
+    }
+}
+

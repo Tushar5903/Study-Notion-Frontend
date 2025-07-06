@@ -1,0 +1,66 @@
+.change-profile-entire-div{
+    width: 100%;
+    background: #161D29;
+    border: 1px solid #2C333F;
+    border-radius: 12px;
+}
+
+.change-profile-second-div{
+    display: flex;
+    gap: 24px;
+    padding: 32px;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+}
+
+.change-profile-image{
+    aspect-ratio: 1/1;
+    width: 78px;
+    border-radius: 9999px;
+    object-fit: cover;
+}
+
+.change-profile-third-div{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.change-profile-para{
+    color: #F1F2FF;
+}
+
+.change-profile-forth-div{
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+}
+
+.change-profile-select-button{
+    padding: 0 24px;
+    font-size: large;
+    border-radius: 12px;
+    background-color: #2C333F;
+    color: #F1F2FF;
+    border: none;
+    cursor: pointer;
+}
+
+.hidden{
+    display: none;
+}
+
+@media (max-width:450px){
+    .change-profile-forth-div{
+        gap: 12px;
+    }
+    .change-profile-second-div{
+        width: 98%;
+        gap: 12px;
+        padding: 24px;
+    }
+    .change-profile-select-button{
+        padding: 0 14px;
+    }
+}

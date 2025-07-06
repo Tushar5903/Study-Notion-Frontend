@@ -1,0 +1,82 @@
+.login_form_complete_access {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    row-gap: 16px;
+    margin-top: 24px;
+    
+}
+
+.label {
+    width: 100%;
+    margin-top: 12px;
+}
+
+.para {
+    font-size: 0.875rem;
+    color: white;
+    line-height: 1.375rem;
+    margin-bottom: 4px;
+    margin-top: 12px;
+}
+
+.colour {
+    color: red;
+}
+
+.input_design {
+    background-color: rgba(20, 25, 30, 1);
+    border-radius: 12px;
+    border: 2px solid rgba(20, 25, 30, 1);
+    color: white;
+    padding: 12px;
+    width: 94%;
+}
+
+input:-internal-autofill-selected {
+    background-color: black;
+    color: white;
+}
+
+.eye_icon {
+    position: absolute;
+    right: 12px;
+    top: 54px;
+    cursor: pointer;
+    color: white;
+}
+
+.relattive {
+    position: relative;
+}
+
+.forget {
+    font-size: x-small;
+    margin-top: 4px;
+    color: skyblue;
+    max-width: max-content;
+    margin-left: auto;
+}
+
+.forget:hover {
+    color: red;
+}
+
+.label a {
+    text-decoration: none;
+}
+
+.buttonss {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    font-size: medium;
+    color: black;
+    border: 2px solid rgba(20, 25, 30, 1);
+    padding: 8px 12px;
+    column-gap: 0.5rem;
+    margin-top: 24px;
+    background-color: yellow;
+    cursor: pointer;
+}

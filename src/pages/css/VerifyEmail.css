@@ -1,0 +1,76 @@
+.verify-email-first-div{
+    width: 100%;
+    background-color: #000814;
+    min-height: calc(100vh - 3.53rem);
+    display: flex;
+
+}
+
+.verifying-email-inner-div{
+    width: 30%;
+    height: 36vh;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.verifying-email-heading{
+    color: #f1f2ff;
+    font-size: 36px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.verifying-email-para{
+    font-size: 1.25rem;
+    color: #5B5B5B;
+    margin: 12px 0;
+}
+
+.verifying-email-button{
+    margin-top: 16px;
+    width: 100%;
+    padding: 12px 0;
+    border-radius: 12px;
+    cursor: pointer;
+    background-color: #FFD60A;
+    font-weight: lighter;
+    font-size: medium;
+}
+
+.verification-last-button-group{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.verify-email-forwarding{
+    color: #f1f2ff;
+    align-items: center;
+    font-size: medium;
+    display: flex;
+    flex-direction: row;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.verify-email-forwarding-icon{
+    font-size: x-large;
+}
+
+.Verification-resent-button{
+    padding: 12px 0 ;
+    border-radius: 12px;
+    width: 40%;
+    background-color: #FFD60A;
+    cursor: pointer;
+}
+
+@media (max-width:1023px) {
+    .verifying-email-inner-div {
+        width: 90%;
+    }
+}
+  

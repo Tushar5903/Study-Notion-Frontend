@@ -1,0 +1,27 @@
+.cart-entire-div{
+    background-color: #000814;
+    width: 100%;
+    min-height: calc(100vh - 3.53rem);
+}
+
+.cart-allignment{
+    width: 80%;
+    margin: auto;
+    padding-top: 40px;
+}
+
+.cart-heading{
+    color: #f1f2ff;
+}
+
+.cart-total-count-para{
+    margin-top: 20px;
+    color: #585D69;
+}
+
+.empty-cart-dataset{
+    margin-top: 40px;
+    font-size: xx-large;
+    color: #f1f2ff;
+
+}

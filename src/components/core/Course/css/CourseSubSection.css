@@ -1,0 +1,27 @@
+.course-sub-section-second-div {
+    display: flex;
+    padding: 0.5rem 0;
+    row-gap:20px;
+}
+
+.course-sub-sectoin-third-div {
+    display: flex;
+    flex-direction: row;
+    padding: 0.5rem 0;
+    width: 80%;
+    text-align: left;
+}
+
+.course-sub-section-para{
+    padding-left: 40px;
+}
+
+@media (max-width:591px){
+    .course-sub-sectoin-third-div{
+        width: 100%;
+    }
+    .course-sub-section-para{
+    padding-left: 30px;
+    font-size: 16px;
+}
+}

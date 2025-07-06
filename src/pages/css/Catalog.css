@@ -1,0 +1,139 @@
+.catalog-hero-section-start {
+    box-sizing: content-box;
+    background-color: #161D29;
+    padding: 0 1rem;
+}
+
+.catalog-hero-second-div {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    min-height: 260px;
+    width: 80%;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.catalog-hero-para {
+    font-size: small;
+    color: #838894;
+}
+
+.catalog-hero-yellow {
+    color: #FFE83D;
+}
+
+.catalog-hero-second-para {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+    color: #f1f2ff;
+}
+
+.catalog-hero-third-para {
+    max-width: 80%;
+    color: #999DAA;
+    line-height: 1.50rem;
+}
+
+.catalog-background-maintaing {
+    background-color: #000814;
+}
+
+.catalog-entire-sections-div {
+    margin: 0 auto;
+    box-sizing: content-box;
+    width: 100%;
+    max-width: 80%;
+    padding: 3rem 1rem;
+}
+
+.catalog-section-1-first-div {
+    font-size: 1.875rem;
+    font-weight: 600;
+    color: #f1f2ff;
+    margin-bottom: 1rem
+}
+
+.catalog-section-1-second-div {
+    margin: 1rem 0;
+    display: flex;
+    border-bottom: 1px solid #424854;
+    font-size: 14px;
+    gap: 14px;
+}
+
+.catalog-section-para {
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+
+}
+
+.yellow-catalog {
+    border-bottom: 1px solid #FFE83D;
+    color: #FFE83D;
+}
+
+.black-catalog {
+    color: #C5C7D4;
+}
+
+.catalog-section-2-entire-div {
+    margin: 0 auto;
+    box-sizing: content-box;
+    width: 100%;
+    padding: 3rem 1rem;
+}
+
+.catalog-section-2-second-div {
+    font-size: 1.875rem;
+    font-weight: 600;
+    color: #f1f2ff;
+    margin-bottom: 1rem
+}
+
+.catalog-section-3-entire-div {
+    margin: 0 auto;
+    box-sizing: content-box;
+    width: 100%;
+    padding: 3rem 0;
+}
+
+.catalog-section-2-second-div {
+    font-size: 1.875rem;
+    font-weight: 600;
+    color: #f1f2ff;
+    margin-bottom: 1rem
+}
+
+.catalog-section-3-third-div {
+    padding: 2rem 0;
+}
+
+.catalog-section-3-forth-div {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+}
+
+@media (max-width: 1023px) {
+    .catalog-section-3-forth-div {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 775px) {
+    .catalog-hero-second-div {
+        width: 90%;
+    }
+
+    .catalog-hero-third-para {
+        max-width: 100%;
+    }
+    
+}
+
+@media (max-width:534px) {
+    .catalog-hero-second-div {
+        padding: 24px 0;
+    }
+}

@@ -1,0 +1,23 @@
+.Render-cart-course-entire-div {
+    width: 90%;
+    border-radius: 0.375rem;
+    border: 1px solid #2C333F;
+    background-color: #161D29;
+    padding: 1.5rem;
+    color: #f1f2ff;
+    margin: 20px 0;
+}
+
+.Render-cart-course-first-para {
+    margin-bottom: 0.25rem;
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: #838894;
+}
+
+.Render-cart-course-second-para {
+    margin-bottom: 1.5rem;
+    font-size: 1.875rem;
+    font-weight: 500;
+    color: #E7C009;
+}

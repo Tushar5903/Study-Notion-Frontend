@@ -1,0 +1,36 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  overflow-x: hidden;
+}
+
+
+.App{
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Inter', sans-serif;
+}
+
+.highlighting{
+  font-weight: bold;
+  background: linear-gradient(to bottom, #0F7A9D, #83F1DE);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.special-highlighting{
+  font-style: italic;
+  font-weight: 700;
+  color: #0F7A9D;
+}
+
+.Rating-star-entire-div{
+  display: flex;
+  gap: 0.25rem;
+  color: #E7C009;
+}

@@ -1,0 +1,46 @@
+.requirement-field-entire-div{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.requirement-field-second-div{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.add-requirement-button{
+    width: fit-content;
+    padding: 6px 16px;
+    cursor: pointer;
+    border-radius: 12px;
+    border: none;
+    font-size: large;
+    background-color: #facc15;
+    font-weight: 600;
+}
+
+.requirement-unordered-list{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.requirement-ordered-list{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    text-align: center;
+}
+
+.clear-requirement-button{
+    border: none;
+    padding: 2px 6px;
+    border-radius: 12px;
+    cursor: pointer;
+    background-color: #BA3356;
+    color: #f1f2ff;
+    font-size: small;
+}

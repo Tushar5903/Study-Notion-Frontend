@@ -1,0 +1,116 @@
+.Render-total-amount-entire-div {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.Render-total-amount-second-div {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    align-items: start;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+.Render-total-amount-third-div-part-one {
+    border-bottom: 1px solid #6E727F;
+    padding-bottom: 1.5rem;
+}
+
+.Render-total-amount-third-div-part-two {
+    margin-top: 24px;
+}
+
+.Render-total-amount-third-div {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.Render-total-amount-first-image {
+    height: 148px;
+    width: 220px;
+    border-radius: 0.5rem;
+    object-fit: cover;
+}
+
+.Render-total-amount-forth-div {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+}
+
+.Render-total-first-para {
+    font-size: 1.125rem;
+    font-weight: 500;
+    color: #F1F2FF;
+}
+
+.Render-total-second-para {
+    font-size: 0.875rem;
+    color: #838894;
+}
+
+.Render-total-Fifth-div {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.Render-total-first-span {
+    color: #FFF970;
+}
+
+.Render-total-second-span {
+    color: #6E727F;
+}
+
+.Render-total-sixth-div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 0.5rem;
+}
+
+.Render-total-first-button {
+    display: flex;
+    align-items: center;
+    column-gap: 0.25rem;
+    border-radius: 0.375rem;
+    border: 1px solid #424854;
+    background-color: #2C333F;
+    padding: 0.75rem 12px;
+    color: #EF476F;
+    cursor: pointer;
+}
+
+.Render-total-first-button:hover{
+    font-weight: 600;
+}
+
+
+.Render-total-third-para {
+    margin-bottom: 1.5rem;
+    font-size: 1.875rem;
+    font-weight: 500;
+    color: #E7C009;
+}
+
+@media (max-width:438px){
+    .Render-total-amount-third-div-part-one  {
+        border: none;
+        /* align-items: center; */
+    }
+    .Render-total-amount-third-div{
+        align-items: center;
+    }
+    .Render-total-amount-forth-div{
+        text-align: center;
+    }
+
+    .Render-total-Fifth-div {
+        justify-content: center;
+    }
+}

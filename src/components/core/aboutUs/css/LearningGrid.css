@@ -1,0 +1,155 @@
+.learning-grid-entire-div {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 0 auto 0 auto;
+    padding: 1rem;
+    width: 80%;
+    padding-bottom: 3.25rem;
+}
+
+.double-width-grid {
+    grid-column: span 2;
+}
+
+.grey-color-grid {
+    background-color: #2C333F;
+    height: 280px;
+}
+
+.black-color-grid {
+    background-color: #161D29;
+    height: 280px;
+}
+
+.grid-positioning {
+    grid-column-start: 2;
+}
+
+.learning-grid-1-inner-div {
+    width: 96%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.learning-grid-1-heading {
+    color: white;
+    font-size: 32px;
+    width: 80%;
+    margin-bottom: 10px;
+}
+
+.black-color-first-grid {
+    background-color: #000814;
+}
+
+.learning-frid-1-para {
+    color: #838894;
+    width: 88%;
+    margin-bottom: 20px;
+    text-align: justify;
+
+}
+
+.learning-grid-2-inner-div {
+    width: 80%;
+    margin: auto;
+
+}
+
+.learning-grid-remaining-heading {
+    font-size: 20px;
+    color: white;
+    font-weight: 300;
+    line-height: 1.725rem;
+    margin-top: 40px;
+}
+
+.learning-grid-remaining-para {
+    font-size: 16px;
+    color: #838894;
+    line-height: 1.725rem;
+    margin-top: 40px;
+    text-align: justify;
+}
+
+@media (max-width: 1000px) {
+    .learning-grid-1-heading {
+        font-size: 24px;
+        text-align: left;
+        width: 96%;
+    }
+
+    .learning-frid-1-para {
+        font-size: 16px;
+        width: 96%;
+        margin-top: 10px;
+    }
+    .learning-grid-remaining-heading{
+        margin-top: 20px;
+    }
+    .learning-grid-remaining-para{
+        margin-top: 20px;
+        line-height: 1.25rem;
+        font-size: 14px;
+        text-align: left;
+    }
+    .black-color-grid,.grey-color-grid{
+        height: 300px;
+    }
+}
+
+@media (max-width:800px){
+    .black-color-grid,.grey-color-grid{
+        height: 330px;
+    }
+    .learning-grid-entire-div {
+        width: 90%;
+    }
+}
+
+@media (max-width: 620px) {
+    .learning-grid-entire-div {
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+
+    .grid-positioning {
+        grid-column-start: 1;
+    }
+
+    .double-width-grid {
+        grid-column: span 1;
+    }
+
+    .for-media-in-learning-grid {
+        margin-top: 8vh;
+    }
+
+    .learning-grid-1-heading {
+        font-size: 24px;
+        text-align: center;
+        width: 100%;
+    }
+
+    .learning-frid-1-para {
+        font-size: 16px;
+        width: 100%;
+        margin-top: 10px;
+    }
+    .black-color-grid,.grey-color-grid{
+        height: 280px;
+    }
+    .learning-grid-remaining-heading{
+        margin-top: 40px;
+        text-align: center;
+    }
+    .learning-grid-remaining-para{
+        margin-top: 40px;
+        line-height: 1.725rem;
+        font-size: 18px;
+        text-align: justify;
+    }
+    .learning-grid-entire-div {
+        width: 80%;
+    }
+}

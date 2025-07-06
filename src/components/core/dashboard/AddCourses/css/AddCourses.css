@@ -1,0 +1,87 @@
+.Add-Course-entire-div{
+    background-color: #000814;
+    width: 100%;
+    min-height: calc(100vh - 3.53rem);
+}
+
+.Add-course-second-div{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 60px;
+    overflow: hidden;
+}
+
+.Add-courses-third-div{
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    width: 60%;
+    overflow-y: auto;
+}
+
+.Add-courses-heading{
+    color: #f1f2ff;
+    flex-shrink: 0;
+}
+
+.Add-courses-forth-div{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 30%;
+    background-color: #2C333F;
+    padding: 32px;
+    border-radius: 24px;
+    color: #f1f2ff;
+    height: fit-content;
+}
+
+.Add-courses-para{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 16px;
+    font-size: x-large;
+}
+
+.thunderbolt{
+    color: yellow;
+}
+
+.Add-courses-unordered-list{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.Add-courses-forth-div ul li{
+    font-size: small;
+    text-align: start;
+    line-height: 1.125rem;
+}
+
+@media(max-width:1182px){
+.Add-course-second-div{
+    width: 90%;
+    gap: 24px;
+}
+}
+
+@media (max-width:924px){
+    .Add-course-second-div{
+        flex-direction: column-reverse;
+        gap: 40px;
+    }
+    .Add-courses-forth-div{
+        width: 82%;
+        margin: auto;
+    }
+    .Add-courses-third-div{
+        width: 88%;
+        margin: auto;
+    }
+}
+

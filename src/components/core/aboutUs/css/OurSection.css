@@ -1,0 +1,35 @@
+.our-section-first-div{
+    display: flex;
+    flex-direction: row;
+    gap: 14.125rem;
+}
+
+.our-section-heading{
+    font-size: 40px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.our-section-para{
+    font-size: 16px;
+    color: #838894;
+    line-height: 1.25rem;
+    margin-bottom: 10vh;
+    text-align: justify;
+}
+
+@media (max-width:1023px){
+    .our-section-first-div{
+        flex-direction: column;
+        gap: 1.125rem;
+    }
+    .our-section-heading{
+        font-size: 36px;
+        text-align: center;
+    }
+    .our-section-para{
+        
+        line-height: 1.75rem;
+        font-family: 18px;
+    }
+}

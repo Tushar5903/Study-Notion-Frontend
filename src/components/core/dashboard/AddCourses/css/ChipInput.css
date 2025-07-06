@@ -1,0 +1,61 @@
+.chip-input-entire-div {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.chip-input-label {
+    font-size: small;
+    color: #f1f2ff;
+}
+
+.chip-input-super {
+    color: red;
+}
+
+.chip-input-second-div {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    row-gap: 0.5rem;
+}
+
+.chip-input-third-div {
+    margin: 0.25rem;
+    display: flex;
+    align-items: center;
+    border-radius: 9999px;
+    background-color: #facc15;
+    padding: 0.25rem 0.5rem;
+    font-size: 0.875rem;
+    color: #f1f2ff;
+}
+
+.chip-input-close-button {
+    height: 16px;
+    margin-left: 0.5rem;
+    border: none;
+}
+
+.close-button-icon-in-chip-inputs{
+    font-size: medium;
+    background-color: #facc15;
+    cursor: pointer;
+    
+}
+
+.chip-input{
+    height: 24px;
+    border-radius: 12px;
+    padding: 8px;
+    background-color: #2C333F;
+    border: none;
+    box-shadow: 0 2px 4px -1px white;
+    color: white;
+    width: 100%;
+}
+
+.chip-input-warning{
+    margin-top: 6px;
+    color: red;
+}

@@ -1,0 +1,143 @@
+.part-two{
+    display: flex;
+    flex-direction: row;
+    gap: 24vh;
+    align-items: center;
+    margin: 15vh 0 ;
+}
+
+.entire-icons-section{
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+}
+
+.single-timeline{
+    display: flex;
+    flex-direction: row;
+    gap: 2.4vh;
+}
+
+.Logo-div{
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 24px;
+}
+
+.heading-portion{
+    font-weight: 700;
+    font-size: 18px;
+
+}
+
+.description-portion{
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.entire-left-timeline{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+}
+
+.doted-lines{
+    height: 6vh;
+    border-right: 1px dotted #585D69;
+    width: 26px;
+}
+
+.image-div{
+    position: relative;
+}
+
+.image-tag{
+    box-shadow: 25px 25px 0px 0px white, 19px 8px 20px 4px #47A5C5, -5px -3px 20px 4px #47A5C5;
+    border-radius:8px ;
+    height: 450px;
+}
+
+.overlap-over-image{
+    position: absolute;
+    background-color:#014A32 ;
+    display: flex;
+    flex-direction: row;
+    color: white;
+    text-transform: uppercase;
+    padding: 2.5rem 0;
+    left: 10%;
+    bottom: -12%;
+}
+
+.left-direction{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+    border-right: 2px solid #05BF8E;
+    padding: 0 24px 0 12px;
+}
+.right-direction{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+    text-align: center;
+    padding: 0  12px 0 24px  ;
+}
+
+.left-number,.right-number{
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.left-text,.right-text{
+    font-size: 15px;
+    color: #05A77B;
+}
+
+@media (max-width:1026px ){
+    .part-two{
+        gap: 8vh;
+        margin: 8vh 0;
+    }
+    .doted-lines{
+        display: none;
+    }
+    .image-tag{
+        height: 440px;
+    }
+}
+
+
+@media (max-width:1023px){
+    .part-two{
+        flex-direction: column;
+        gap: 12vh;
+    }
+    .doted-lines{
+        display: none;
+    }
+    .image-tag{
+        height: 240px;
+    }
+    .overlap-over-image{
+        padding: 1.5rem 0;
+        left: 10%;
+        right: 10%;
+    }
+    .left-direction,.right-direction{
+        padding: 0 10px;
+        gap: 10px;
+    }
+    .left-number,.right-number{
+        font-size: 20px;
+    }
+    .left-text,.right-text{
+        font-size: 10px;
+    }
+}

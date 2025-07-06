@@ -1,0 +1,213 @@
+.myprofile-entire-section{
+    background-color: #000814;
+    width: 100%;
+    min-height: calc(100vh - 3.53rem);
+    
+}
+
+.for-black-spacing-after-all-3-sections{
+    height: 80px;
+}
+
+.myprofile-heading{
+    color: white;
+    width: 70%;
+    margin: auto;
+    padding-top: 40px;
+}
+
+.myprofile-user-image{
+    aspect-ratio: 1/1;
+    width: 78px;
+    border-radius: 9999px;
+    object-fit: cover;
+}
+
+.myprofile-section-1-first-div{
+    display: flex;
+    flex-direction: row;
+    background-color: #161D29;
+    width: 70%;
+    margin: 50px auto 60px auto;
+    justify-content: space-between;
+    padding: 30px;
+    border-radius: 12px;
+    align-items: center;
+}
+
+.myprofile-section-1-second-div{
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+    align-items: center;
+
+}
+
+.myprofile-section-1-third-div{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.myprofile-section-1-first-para{
+    color: white;
+    font-size: x-large;
+}
+
+.myprofile-section-1-second-para{
+    color: #AFB2BF;
+}
+
+.myprofile-section-2-first-div{
+    display: flex;
+    flex-direction: column;
+    background-color: #161D29;
+    width: 70%;
+    margin: 50px auto 60px auto;
+    padding: 30px;
+    border-radius: 12px;
+    gap: 12px;
+}
+
+.myprofile-section-2-second-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.myprofile-section-2-first-para{
+    font-size: x-large;
+    color: white;
+}
+
+.myprofile-section-2-second-para{
+    font-size: medium;
+    color: #6E727F;
+    width: 90%;
+    text-align: justify;
+    line-height: 1.50rem;
+}
+
+.myprofile-section-3-first-div{
+    display: flex;
+    flex-direction: column;
+    background-color: #161D29;
+    width: 70%;
+    margin: 40px auto 0 auto;
+    padding: 30px;
+    border-radius: 12px;
+    gap: 24px;
+    
+}
+
+.myprofile-section-3-second-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.myprofile-main-heading-section-3{
+    font-size: x-large;
+    color: white;
+}
+
+.myprofile-section-3-third-div{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.myprofile-section-3-forth-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.myprofile-section-3-fifth-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.myprofile-section-3-sixth-div{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    justify-content: space-between;
+}
+
+.fixed-details{
+    color: #6E727F;
+    font-size: 14px;
+}
+
+.changable-details{
+    color: white;
+    font-size: 14px;
+}
+
+.myprofile-section-3-common-div{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+@media (max-width:854px){
+    .myprofile-section-3-fifth-div{
+        flex-direction: column;
+        gap: 24px;
+    }
+}
+
+@media (max-width:821px){
+    .myprofile-section-1-first-div,
+    .myprofile-section-2-first-div,
+    .myprofile-section-3-first-div{
+        width: 80%;
+    }
+}
+
+@media (max-width:819px){
+    .myprofile-section-1-first-div,
+    .myprofile-section-2-first-div,
+    .myprofile-section-3-first-div{
+        width: 88%;
+    }
+}
+
+@media (max-width: 545px) {
+    .myprofile-heading{
+        padding-top: 80px;
+        width: 90%;
+    }
+    .myprofile-section-1-first-div,
+    .myprofile-section-2-first-div,
+    .myprofile-section-3-first-div {
+        padding: 15px;
+    }
+    .myprofile-section-1-second-div{
+        gap: 10px;
+    }
+    .myprofile-section-1-first-para,.myprofile-section-1-second-para{
+        font-size: small;
+    }
+    .myprofile-user-image {
+        width: 42px;
+    }
+    .myprofile-section-2-first-para{
+        font-size: large;
+    }
+    .myprofile-section-2-second-para{
+        font-size: small;
+    }
+    .myprofile-main-heading-section-3{
+        font-size: large;
+    }
+    
+}

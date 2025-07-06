@@ -1,0 +1,50 @@
+.sidebar-yellow {
+    background-color: #e7be0954;
+}
+
+.sidebar-tranparent {
+    background: transparent;
+}
+
+.entire-sidebar-Links {
+    position: relative;
+    padding: 14px 16px;
+    font-size: medium;
+    margin: 5px 0;
+    transition: background-color 0.3s ease, border-left 0.3s ease;
+}
+
+
+.inside-sidebar-links {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 0.2rem;
+    height: 100%;
+    background-color: #E7C009;
+}
+
+.first-span-inside-sidebar-link {
+    opacity: 100;
+}
+
+.second-span-inside-sidebar-link {
+    opacity: 0;
+}
+
+.first-div-inside-sidebar-link {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 16px;
+    color: white;
+
+}
+
+.sidebar-setting-button{
+    font-size: large;
+}
+
+.sidebar-link-icons {
+    font-size: large;
+}

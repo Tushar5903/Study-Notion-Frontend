@@ -1,0 +1,29 @@
+.edit-course-entire-div{
+    background-color: #000814;
+    width: 100%;
+    min-height: calc(100vh - 3.53rem);
+}
+
+.edit-course-alligment{
+    width: 70%;
+    margin: auto;
+    padding-bottom: 40px;
+}
+
+.Edit-course-heading{
+    padding-top: 40px;
+    color: #f1f2ff;
+}
+
+.edit-course-second-div{
+    max-width: 600px;
+    margin: auto;
+}
+
+.edit-course-para{
+    margin-top: 56px;
+    text-align: center;
+    font-size: xx-large;
+    font-weight: 600;
+    color: #AFB2BF;
+}

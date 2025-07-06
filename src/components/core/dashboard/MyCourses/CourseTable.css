@@ -1,0 +1,195 @@
+.course-table-entire-table {
+    border-radius: 12px;
+    border: 1px solid #161D29;
+    margin-top: 40px;
+}
+
+.course-table-heading-row {
+    display: flex;
+    column-gap: 6.5rem;
+    border-top-left-radius: 0.375rem;
+    border-top-right-radius: 0.375rem;
+    border-bottom: 1px solid #161D29;
+    padding: 0.5rem 1.5rem;
+}
+
+.course-table-heading-one {
+    flex: 1;
+    text-align: left;
+    font-size: small;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #AFB2BF
+}
+
+.course-table-heading-two,
+.course-table-heading-three {
+    text-align: left;
+    font-size: small;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #AFB2BF
+}
+
+.data-not-found-table-data {
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #f1f2ff;
+}
+
+.course-table-row {
+    display: flex;
+    gap: 64px;
+    border-bottom: 1px solid #161D29;
+    padding: 32px 24px;
+}
+
+.course-table-first-data {
+    display: flex;
+    flex: auto;
+    gap: 16px;
+}
+
+.course-table-image {
+    height: 148px;
+    width: 220px;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+.course-table-first-data-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 16px;
+}
+
+.course-table-course-name {
+    font-size: larger;
+    font-weight: 500;
+    color: #f1f2ff;
+}
+
+.course-table-description {
+    font-size: small;
+    color: #838894;
+}
+
+.Drafted-para-course-table {
+    display: flex;
+    width: fit-content;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 0.5rem;
+    border-radius: 9999px;
+    background-color: #2D2F34;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    font-size: 12px;
+    font-weight: 500;
+    color: #F37290;
+}
+
+.published-para-course-table {
+    display: flex;
+    width: fit-content;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 0.5rem;
+    border-radius: 9999px;
+    background-color: #2D2F34;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    font-size: 12px;
+    font-weight: 500;
+    color: #E7C009;
+}
+
+.course-table-second-data {
+    font-size: small;
+    font-weight: 500;
+    color: #AFB2BF;
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+}
+
+.course-table-edit-button {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    transition: all 200ms ease;
+    background-color: transparent;
+    border: none;
+    color: #AFB2BF;
+    cursor: pointer;
+}
+
+.course-table-edit-button:hover {
+    transform: scale(1.10);
+    color: #05A77B;
+}
+
+.course-table-edit-icon,
+.course-table-delete-icon {
+    width: 24px;
+    height: 24px;
+}
+
+.course-table-delete-button {
+    padding-right: 0.5rem;
+    transition: all 200ms ease;
+    background-color: transparent;
+    border: none;
+    color: #AFB2BF;
+    cursor: pointer;
+}
+
+.course-table-delete-button:hover {
+    transform: scale(1.10);
+    color: #ff0000;
+}
+
+
+@media (max-width:950px) {
+    .course-table-image {
+        width: 80%;
+    }
+
+    .course-table-row {
+        gap: 40px;
+    }
+
+    .course-table-heading-row {
+        gap: 4.5rem;
+    }
+
+    .responsiveTable td .tdBefore {
+        color: #f1f2ff;
+    }
+
+    .responsiveTable td.pivoted {
+        padding-top: 20px;
+    }
+
+    .responsiveTable tbody tr {
+        padding: 2.25em 0.25rem;
+        border: 1px solid #2C333F;
+    }
+
+    .course-table-first-data-div{
+        margin-left: 0;
+        gap: 12px;
+    }
+
+    
+    .course-table-course-name {
+        padding-top: 8px;
+    }
+}

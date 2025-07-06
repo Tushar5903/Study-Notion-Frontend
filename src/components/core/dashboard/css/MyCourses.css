@@ -1,0 +1,22 @@
+.My-coursess-entire-div{
+    background-color: #000814;
+    width: 100%;
+    min-height: calc(100vh - 3.53rem);
+}
+
+.My-courses-second-div{
+    width: 90%;
+    margin: auto;
+    padding: 40px 0;
+
+}
+
+.My-courses-third-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.My-Courses-heading{
+    color: #f1f2ff;
+}

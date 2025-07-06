@@ -1,0 +1,15 @@
+.custom-star-rating {
+  display: flex;
+  gap: 6px;
+  cursor: pointer;
+  justify-content: center;
+}
+
+.star {
+  color: #fff;
+  transition: color 0.2s;
+}
+
+.star.filled {
+  color: #ffd700;
+}

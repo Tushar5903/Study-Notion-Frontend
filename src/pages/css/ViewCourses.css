@@ -1,0 +1,17 @@
+.view-courses-entire-div {
+    position: relative;
+    display: flex;
+    min-height: calc(100vh - 3.53rem);
+    background-color: #000814;
+}
+
+.view-courses-second-div {
+    height: calc(100vh - 3.53rem);
+    flex: 1;
+    overflow: auto;
+}
+
+.view-courses-third-div {
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+}

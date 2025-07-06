@@ -1,0 +1,18 @@
+.Icons-buttons-common{
+    padding: 8px 20px;
+    font-size: larger;
+    border: 1px solid #E7C009;
+    background-color: #E7C009;
+    color: black;
+    border-radius: 12px;
+    cursor: pointer;
+    width: fit-content;
+    height: fit-content;
+}
+
+@media (max-width:545px){
+    .Icons-buttons-common{
+        font-size: small;
+        padding: 6px 16px;
+    }
+}

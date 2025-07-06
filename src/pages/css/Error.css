@@ -1,0 +1,12 @@
+.error-entire-div {
+  display: flex;
+  justify-Content: center;
+  width: 100%;
+  margin: auto;
+  align-items: center;
+  font-Size: xx-large;
+  font-weight: bolder;
+  background-color: #000814;
+  min-height: calc(100vh - 3.53rem);
+  color: white;
+}

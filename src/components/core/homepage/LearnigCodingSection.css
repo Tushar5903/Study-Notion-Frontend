@@ -1,0 +1,89 @@
+.entire-Learning-section{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+.first-heading{
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    width: 60%;
+    margin:  0 auto 10px auto;
+}
+
+.second-section{
+    font-size: 16px;
+    width: 56%;
+    margin:  0 auto;
+    text-align: center;
+}
+
+.multiple-image-section{
+    display: flex;
+    flex-direction: row;
+    margin-top: 80px;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+}
+
+.multiple-image-section img{
+    object-fit: contain;
+}
+
+.first-img{
+    margin-right: -10%;
+}
+.second-img{
+    margin-right: -14%;
+}
+
+.learning-button-section{
+    margin: 0 auto 80px auto;
+}
+
+@media (max-width:1023px){
+    .multiple-image-section{
+        flex-direction: column;
+        width: 70%;
+    }
+    .first-img{
+        margin-right: 0%;
+        width: 95%;
+    }
+    .second-img{
+        margin-right: 0%;
+        width: 95%;
+    }
+    .third-img{
+        width: 95%;
+    }
+    .second-section{
+        margin-bottom: 24px;
+    }
+    .first-heading{
+        font-size: 36px;
+        width: 90%;
+        text-align: left;
+    }
+    .second-section{
+        width: 90%;
+        font-size: 18px;
+        margin-top: 16px;
+        text-align: left;
+    }
+}
+
+@media (max-width:1025px){    
+    .first-img{
+        margin-left: 7%;
+        margin-right: -15%;
+    }
+    .second-img{
+        margin-right: -20%;
+    }
+    .third-img{
+        margin-right: 8%;
+    }
+}

@@ -1,0 +1,75 @@
+.course-Information-entier-section{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border: 1px solid #2C333F;
+    color: #f1f2ff;
+    padding: 40px;
+    border-radius: 24px;
+}
+
+.course-information-input-div{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.course-information-label{
+    font-size: small;
+}
+
+.course-information-super{
+    color: red;
+}
+
+.course-information-input-tag{
+    height: 24px;
+    border-radius: 12px;
+    padding: 8px;
+    background-color: #2C333F;
+    border: none;
+    box-shadow: 0 2px 4px -1px white;
+    color: white;
+}
+
+.course-information-warning{
+    margin-top: 4px;
+    color: red;
+}
+
+.course-information-textarea-input{
+    height: 80px;
+    padding: 8px;
+    border-radius:12px ;
+    background-color: #2C333F;
+    border: none;
+    box-shadow: 0 2px 4px -1px white;
+    color: white;
+}
+
+.course-information-select-tag{
+    height: 40px;
+    padding: 8px;
+    border-radius: 12px;
+    background-color: #2C333F;
+    border: none;
+    box-shadow: 0 2px 4px -1px white;
+    color: white;
+}
+
+.course-information-buttons{
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    justify-content: right;
+}
+
+.course-information-edit-button{
+    padding: 6px 12px;
+    cursor: pointer;
+    width: fit-content;
+    border-radius: 12px;
+    background-color: #2C333F;
+    color: #f1f2ff;
+    border: none;
+}

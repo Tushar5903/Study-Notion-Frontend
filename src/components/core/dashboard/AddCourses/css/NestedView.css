@@ -1,0 +1,118 @@
+.Nested-view-first-div {
+    border-radius: 0.5rem;
+    background-color: #1a1a2e;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.Nested-view-summary-contant {
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    border-bottom-color: #4b5563;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.Nested-view-third-div {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.nested-section-drop-down {
+    font-size: xx-large;
+    color: #C5C7D4;
+}
+
+.nested-view-section-name {
+    font-weight: 500;
+    color: #C5C7D4;
+}
+
+.Nested-view-edit-button {
+    font-size: x-large;
+    color: #838894;
+    cursor: pointer;
+}
+
+.subsection-entire-div {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-bottom: 1rem;
+}
+
+.Nested-view-subsection-second-div {
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.75rem;
+    border-bottom-width: 2px;
+    border-bottom-color: #2c2f45;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.Nested-view-subsection-third-div {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.Nested-view-subsection-forth-div {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.Next-view-add-subsection-button {
+    margin-top: 0.75rem;
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
+    color: #fef08a;
+    background-color: transparent;
+    padding: 8px 16px;
+    border: none;
+    cursor: pointer;
+
+}
+
+.plus-icon-sunsection-button {
+    font-size: large;
+}
+
+.Nested-button-icons {
+    background-color: transparent;
+    padding: 2px;
+    border: none;
+}
+
+.Nested-view-edit-button-subsection {
+    background-color: #161D29;
+    border: none;
+
+}
+
+.Nested-view-edit-button-subsection-icon {
+    font-size: x-large;
+    color: #838894;
+    cursor: pointer;
+}
+
+@media (max-width:513px){
+    .Nested-view-first-div {
+        padding: 0;
+    }
+    .course-builer-entire-div{
+        padding: 25px;
+    }
+}

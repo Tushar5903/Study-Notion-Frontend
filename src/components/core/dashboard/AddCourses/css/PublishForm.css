@@ -1,0 +1,34 @@
+.publish-form-entire-div{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border: 1px solid #2C333F;
+    color: #f1f2ff;
+    padding: 40px;
+    border-radius: 24px;
+    margin-bottom: 40px;
+    background-color: #161D29;
+}
+
+.publish-form-second-div{
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 16px;
+    justify-content: left;
+}
+
+.publish-form-buttons-div{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    gap: 20px;
+}
+
+.publish-course-back-button{
+    padding: 8px 20px;
+    font-size: large;
+    border: none;
+    border-radius:12px ;
+    cursor: pointer;
+}

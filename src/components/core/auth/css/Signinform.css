@@ -1,0 +1,68 @@
+.signup_form {
+    display: flex;
+    gap: 42px;
+    margin-top: 12px;
+}
+
+.first_name {
+    width: 100%;
+    background-color: rgba(20, 25, 30, 1);
+    border-radius: 12px;
+    border: 2px solid rgba(20, 25, 30, 1);
+    color: white;
+    padding: 12px;
+}
+
+.signup_form_password {
+    display: flex;
+    gap: 42px;
+}
+
+.signup_password {
+    width: 100%;
+    background-color: rgba(20, 25, 30, 1);
+    border-radius: 12px;
+    border: 2px solid rgba(20, 25, 30, 1);
+    color: white;
+    padding: 12px;
+}
+
+.eye_icons {
+    color: white;
+    position: absolute;
+    right: -12px;
+    top: 54px;
+    cursor: pointer;
+}
+
+.special_button {
+    display: flex;
+    background-color: rgba(20, 25, 30, 1);
+    padding: 4px;
+    column-gap: 4px;
+    margin: 24px 0;
+    border-radius: 24px;
+    max-width: max-content;
+}
+
+.instruct {
+    background-color: black;
+    color: white;
+    padding: 8px 20px;
+    border-radius: 24px;
+    border: 1px solid black;
+}
+
+.common {
+    background: transparent;
+    color: rgba(161, 168, 172, 0.99);
+    padding: 8px 20px;
+    border-radius: 24px;
+    transition: all 0.2s;
+    border: 1px solid rgba(20, 25, 30, 1);
+}
+
+.common:hover , .instruct:hover{
+    background-color: black;
+    cursor: pointer;
+}

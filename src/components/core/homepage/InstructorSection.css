@@ -1,0 +1,87 @@
+.Instructor-first-div {
+    width: 92%;
+    margin: 64px auto 40px auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.Instructor-image {
+    width: 64%;
+    margin: 0 40px;
+
+}
+
+.Instructor-image img {
+    box-shadow: -20px -20px 0px 3px white;
+}
+
+.Instructor-text {
+    width: 64%;
+    margin: auto 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+}
+
+.Instructor-heading {
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.Instructor-para {
+    color: #9E9E9E;
+    font-size: 17px;
+    line-height: 1.8rem;
+}
+
+.Instuctor-section-button {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    gap: 16px;
+}
+
+@media (max-width:1023px) {
+    .Instructor-first-div {
+        flex-direction: column;
+    }
+
+    .Instructor-image {
+        margin: auto;
+        width: 80%;
+    }
+
+    .Instructor-image img {
+        width: 100%;
+    }
+
+    .Instructor-text {
+        margin: auto;
+        text-align: left;
+        width: 80%;
+
+    }
+
+    .Instructor-button-main-section {
+        margin: auto;
+    }
+
+    .Instructor-heading {
+        margin-top: 32px;
+        text-align: left;
+    }
+}
+
+@media (max-width:1026px){
+    .Instructor-image {
+        margin: auto;
+        width: 80%;
+    }
+    .Instructor-image img {
+        width: 88%;
+    }
+    .Instructor-first-div{
+        width: 84%;
+    }
+}

@@ -1,0 +1,79 @@
+.delete-account-entire-div{
+     width: 100%;
+    background: #340019;
+    border: 1px solid #691432;
+    border-radius: 12px;
+    margin-top: 40px;
+    padding: 40px 0 24px 0;
+}
+
+.delte-account-second-div{
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+}
+
+.delete-icon{
+    font-size: 32px;
+    background-color: #691432;
+    aspect-ratio: 1/1;
+    height: 56px;
+    width: 56px;
+    text-align: center;
+    align-content: center;
+    border-radius: 50%;
+    color: #EF476F;
+}
+
+.delete-content-div{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    width: 60%;
+}
+
+.delete-content-heading{
+    color: #f1f2ff;
+}
+
+.delete-content-second-div{
+    display: flex;
+    flex-direction: column;
+    color: #FBC7D1;
+    line-height: 1.75rem;
+    gap: 12px;
+    
+}
+
+.confirm-delte-button{
+    font-style: italic;
+    color: #D43D63;
+    cursor: pointer;
+    font-size: 24px;
+    text-align: left;
+    width: fit-content;
+    background-color: #340019;
+    border: none;
+}
+
+.confirm-delte-button:hover{
+    border-bottom: 2px solid #D43D63;
+}
+
+@media (max-width:864px){
+    .delete-content-div{
+        width: 70%;
+    }
+    .confirm-delte-button{
+        font-size: 24px;
+    }
+}
+
+@media (max-width:400px){
+    .confirm-delte-button{
+        font-size: 18px;
+    }
+    .delete-content-second-div{
+        font-size: 12px;
+    }
+}

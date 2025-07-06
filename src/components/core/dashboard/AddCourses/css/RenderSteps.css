@@ -1,0 +1,89 @@
+.yellow-step {
+    background-color: #251400;
+    border-color: #FFD60A;
+    color: #FFD60A
+}
+
+
+.grey-step {
+    background-color: #161D29;
+    border-color: #2C333F;
+    color: #838894;
+}
+
+.RenderSteps-number-div {
+    display: flex;
+    width: 86%;
+    margin: 0 auto 8px auto;
+    justify-content: space-between;
+    position: relative;
+
+}
+
+
+.RenderSteps-third-div {
+    display: flex;
+    align-items: center;
+}
+
+.number-button-render-steps {
+    display: grid;
+    cursor: default;
+    aspect-ratio: 1 / 1;
+    width: 34px;
+    place-items: center;
+    border-radius: 120px;
+    border: none
+}
+
+.render-step-heading-div {
+    position: relative;
+    margin-bottom: 4rem;
+    display: flex;
+    width: 100%;
+    user-select: none;
+    justify-content: space-between;
+}
+
+.render-step-first-inside-heading-div {
+    display: flex;
+    flex-direction: column;
+    min-width: 120px;
+    align-items: center;
+    row-gap: 0.5rem;
+}
+
+.black-text-heading {
+    font-size: small;
+    color: #585D69;
+}
+
+.white-text-heading {
+    font-size: small;
+    color: #f1f2ff;
+}
+
+@media (max-width:967px) {
+    .render-step-first-inside-heading-div {
+        min-width: 110px;
+    }
+
+    .black-text-heading {
+        font-size: smaller;
+        color: #585D69;
+        width: fit-content;
+    }
+
+    .white-text-heading {
+        font-size: smaller;
+        color: #f1f2ff;
+        width: fit-content;
+    }
+
+}
+
+@media (max-width:454px){
+    .render-step-first-inside-heading-div{
+        display: none;
+    }
+}

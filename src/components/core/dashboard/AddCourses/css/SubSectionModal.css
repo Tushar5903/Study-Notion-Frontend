@@ -1,0 +1,109 @@
+.subsection-modal-entire-div {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1000;
+    margin-top: 0 !important;
+    display: grid;
+    height: 100vh;
+    width: 100vw;
+    place-items: center;
+    overflow: auto;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(4px);
+    
+}
+
+.subsection-modal-second-div {
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+    width: 91.666667%;
+    max-width: 700px;
+    border-radius: 0.5rem;
+    border: 1px solid #6E727F;
+    background-color: #161D29;
+}
+
+.subsection-modal-third-div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+    background-color: #2C333F;
+    padding: 1.25rem;
+}
+
+.subsection-modal-para {
+    font-size: x-large;
+    font-weight: 600;
+    color: #f1f2ff;
+}
+
+.subsection-modal-cross-button{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.subsection-modal-cross-button-icon {
+    font-size: xx-large;
+    color: #f1f2ff;
+}
+
+.subsection-modal-entire-form {
+    padding: 2.5rem 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.subsection-modal-entire-form>*+*> {
+    margin-top: 2rem;
+}
+
+.subsection-modal-forth-div {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.subsection-modal-label {
+    font-size: small;
+    color: #f1f2ff;
+}
+
+.subSection-modal-input {
+    height: 24px;
+    border-radius: 12px;
+    padding: 8px;
+    background-color: #2C333F;
+    border: none;
+    box-shadow: 0 2px 4px -1px white;
+    color: white;
+}
+
+.subSection-modal-warning {
+    margin-left: 0.5rem;
+    font-size: 0.75rem;
+    line-height: 1rem;
+    letter-spacing: 0.05em;
+    color: #FBCFE8;
+}
+
+.subSection-modal-textarea{
+    height: 80px;
+    padding: 8px;
+    border-radius:12px ;
+    background-color: #2C333F;
+    border: none;
+    box-shadow: 0 2px 4px -1px white;
+    color: white;
+}
+
+.Seb-Section-modal-save-button{
+    display: flex;
+    justify-content: end;
+}

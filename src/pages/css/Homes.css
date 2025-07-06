@@ -1,0 +1,255 @@
+.section1-div {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    width: 100%;
+    background-color: #000814;
+}
+
+.section1-div a {
+    text-decoration: none;
+
+}
+
+.section1-first-link-div {
+    margin: auto;
+    border-radius: 24px;
+    background: #161D29;
+    font-weight: bold;
+    color: #999DAA;
+    transition: all 200ms;
+
+    box-shadow: 0 2px 4px rgba(255, 255, 255, 0.2);
+}
+
+.section1-first-link-div:hover {
+    transform: scale(0.95);
+}
+
+.instructor-button {
+    display: flex;
+    margin-top: 24px;
+    padding: 12px 24px;
+    align-items: center;
+    gap: 8px;
+}
+
+.instructor-button:hover {
+    background-color: #000814;
+    border-radius: 24px;
+}
+
+.section-1-heading {
+    color: white;
+    font-size: xx-large;
+    margin-top: 6vh;
+    text-align: center;
+}
+
+
+
+.section-1-para {
+    margin-top: 2vh;
+    color: #B5B5B5;
+    text-align: center;
+    width: 68%;
+    line-height: 1.8;
+    font-weight: 400;
+}
+
+.section-1-buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 28px;
+    margin-top: 4vh;
+}
+
+.video-section {
+    margin-top: 4vh;
+    margin-bottom: 4vh;
+}
+
+.video-class {
+    width: 75%;
+    display: flex;
+    margin: auto;
+    box-shadow: 25px 25px 0px 0px white,
+        0px 0px 20px 0px #053B48;
+
+}
+
+.double-content-section-1 {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+
+
+}
+
+.datablock-heading {
+    font-size: 36px;
+    font-weight: bold;
+    font-weight: bold;
+    background: linear-gradient(to bottom, #F9F9F9, #ffffff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent
+}
+
+
+@media (max-width:1024px) {
+
+    .section-1-heading,
+    .section-1-para {
+        text-align: left;
+        width: 90%;
+    }
+
+    .video-class {
+        width: 88%;
+        box-shadow: 11px 14px 0px 0px white,
+            0px 0px 20px 0px #053B48;
+    }
+
+}
+
+
+/* Section 2 Coding Starts from their */
+
+.Section-two-starting-div {
+    background-color: #F9F9F9;
+    color: #2C333F;
+}
+
+.background-image-section {
+    background-image: url('../../assets/Images/bghome.svg');
+    height: 333px;
+}
+
+.image-content-section {
+    width: 92%;
+    max-width: max-content;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin: auto;
+}
+
+
+/* Needed to chnage the margin After adding the upper Part of this section */
+.button-section {
+    display: flex;
+    color: white;
+    flex-direction: row;
+    gap: 2vh;
+    margin-top: 24vh;
+}
+
+/* Needed to change the margin After adding the upper Part of this section */
+
+.active-button {
+    display: flex;
+    gap: 8px;
+    text-align: center;
+}
+
+.white-second-section {
+    width: 92%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    max-width: max-content;
+    margin-top: 10vh;
+}
+
+.part-one {
+    display: flex;
+    flex-direction: row;
+    gap: 10vh;
+    width: 88%;
+    margin: auto;
+}
+
+.first-part-one {
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.second-part-one {
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+.heading-second-part-one {
+    font-size: 16px;
+}
+
+.button-second-part-one {
+    margin-top: 5vh;
+}
+
+.Section-three-first-heading {
+    font-size: 40px;
+    color: white;
+    font-weight: bold;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.section-three-second-div {
+    width: 91.666667%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2.5rem;;
+}
+
+@media(max-width:1026px) {
+    .first-part-one {
+        font-size: 28px;
+    }
+
+    .button-section {
+        margin-top: 36vh;
+    }
+}
+
+@media (max-width:1023px) {
+    .part-one {
+        flex-direction: column;
+        gap: 5vh;
+    }
+
+    .first-part-one {
+        width: 100%;
+        font-size: 32px;
+    }
+
+    .heading-second-part-one {
+        width: 100%;
+    }
+
+    .Section-three-first-heading {
+        font-size: 36px;
+
+    }
+
+    .button-section {
+        margin-top: 16vh;
+    }
+}
+
+
+
+
+.section-three-starting-div {
+    background-color: #000814;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
